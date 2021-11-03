@@ -1,7 +1,11 @@
 package com.example.firstkotlin
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.AdapterView
+import android.widget.AdapterViewAnimator
 import android.widget.ListView
 
 class ContactListView : AppCompatActivity() {
@@ -41,5 +45,23 @@ initData()
 
         adapter=ContactAdapter(contacts,this)
         contactListView.adapter=adapter;
+
+
+        contactListView.setOnItemClickListener(AdapterView.OnItemClickListener()
+        {
+            adapterView:AdapterView<*>, view1:View, i:Int, l:Long ->  //for sending data ie navigation like argumnets passing
+
+            var position=adapterView.selectedItemPosition
+            var contacts=contacts.get(position);
+            var bundle=Bundle()
+            bundle.putString("name",contacts.name)
+            intent=Intent(this,DetailActivity::class.java)
+            intent.putExtras(bundle)
+            startActivity(intent);
+
+        });
+
+
+
     }
 }

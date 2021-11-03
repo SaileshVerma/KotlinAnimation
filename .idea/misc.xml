@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/firstKotlin/app/src/main/res/drawable/gradientbackground.xml" value="0.18" />
         <entry key="..\:/Users/user/AndroidStudioProjects/firstKotlin/app/src/main/res/drawable/icon.xml" value="0.2125" />
         <entry key="..\:/Users/user/AndroidStudioProjects/firstKotlin/app/src/main/res/drawable/msgicon.xml" value="0.2125" />
         <entry key="..\:/Users/user/AndroidStudioProjects/firstKotlin/app/src/main/res/drawable/rectanglegradient.xml" value="0.2125" />
@@ -10,13 +11,18 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/firstKotlin/app/src/main/res/layout/activity_animation.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/firstKotlin/app/src/main/res/layout/activity_child.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/firstKotlin/app/src/main/res/layout/activity_contact_list_view.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/firstKotlin/app/src/main/res/layout/activity_detail.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/firstKotlin/app/src/main/res/layout/activity_first_screen.xml" value="0.22" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/firstKotlin/app/src/main/res/layout/activity_intent_permissionns.xml" value="0.14" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/firstKotlin/app/src/main/res/layout/activity_intent_permissionns.xml" value="0.22" />
         <entry key="..\:/Users/user/AndroidStudioProjects/firstKotlin/app/src/main/res/layout/activity_main.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/firstKotlin/app/src/main/res/layout/activity_main2.xml" value="0.1590909090909091" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/firstKotlin/app/src/main/res/layout/activity_midterm.xml" value="0.16" />
         <entry key="..\:/Users/user/AndroidStudioProjects/firstKotlin/app/src/main/res/layout/activity_parent.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/firstKotlin/app/src/main/res/layout/activity_recycler_view.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/firstKotlin/app/src/main/res/layout/activity_spinner.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/firstKotlin/app/src/main/res/layout/content_animation.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/firstKotlin/app/src/main/res/layout/layout.xml" value="0.22" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/firstKotlin/app/src/main/res/layout/quest1_ui.xml" value="0.14" />
         <entry key="..\:/Users/user/AndroidStudioProjects/firstKotlin/app/src/main/res/layout/row_layout_view.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/firstKotlin/app/src/main/res/layout/vibrlayout.xml" value="0.19635416666666666" />
       </map>

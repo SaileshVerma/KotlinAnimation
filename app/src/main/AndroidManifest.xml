@@ -3,11 +3,11 @@
     package="com.example.firstkotlin">
 
     <uses-permission android:name="android.permission.VIBRATE" />
-    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
-    <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
-    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
-    <uses-permission android:name="android.permission.WRITE_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
 
     <application
         android:allowBackup="true"
@@ -17,7 +17,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstKotlin">
         <activity
+            android:name=".MainActivity3"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".MIdterm"
+            android:exported="true" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecyclerViewActivity"
+            android:exported="true" />
+        <activity
             android:name=".ContactListView"
+            android:exported="true"></activity>
+        <activity
+            android:name=".Intent_Permissionns"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,17 +43,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Intent_Permissionns"
-            android:exported="true">
-
-        </activity>
-        <activity
             android:name=".ChildActivity"
             android:exported="true"
             android:parentActivityName=".ParentActivity" />
         <activity
             android:name=".ParentActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".SpinnerActivity"
             android:exported="true" />
